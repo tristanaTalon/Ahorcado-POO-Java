@@ -1,0 +1,20 @@
+package Ahorcado;
+
+public class Muñeco {
+
+	public void mostrar() {
+		
+		
+	}
+
+	public void añadir() {
+		
+		
+	}
+
+	public boolean ahorcado() {
+		
+		return false;
+	}
+
+}

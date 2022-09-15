@@ -1,0 +1,23 @@
+package Ahorcado;
+
+public class Muñeco {
+	private int vidas;
+	
+	public Muñeco() {
+		vidas=10;
+	}
+	
+	public void mostrar() {
+		new GestorIO().out("El muñeco tiene: " + vidas + " vidas");
+	}
+
+	public void añadir() {
+		vidas--;
+	}
+
+	public boolean ahorcado() {
+		
+		return vidas==0;
+	}
+
+}
